@@ -9,7 +9,7 @@
 int main()
 {
 	// run some sanity tests on our classes to ensure they're working as expected.
-	assert(TestSuite::runTestSuite());
+	//assert(TestSuite::runTestSuite());
 
 	sf::Sprite blockSprite;			// the tetromino block sprite
 	sf::Texture blockTexture;		// the tetromino block texture

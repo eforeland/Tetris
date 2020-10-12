@@ -48,7 +48,7 @@
 	//   If no points are valid, return true
 	bool Gameboard::areLocsEmpty(std::vector<Point> locs) const {
 
-		for (int i = 0; 0 < locs.size(); i++) {
+		for (int i = 0; i < locs.size(); i++) {
 			if (locs[i].getX() > 0 && locs[i].getX() < MAX_X) {
 				if (locs[i].getY() > 0 && locs[i].getY() < MAX_Y) {
 					if (grid[locs[i].getX()][locs[i].getY()] != -1) {
